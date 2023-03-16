@@ -1,0 +1,377 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  line-height: 180%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+.parallax0 {
+  background-color: black;
+  min-height: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+.setting {
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px black;
+}
+.parallax1 {
+  background: url(../images/cityriver.jpg);
+  min-height: 60%;
+}
+
+.parallax2 {
+  background: url(../images/corey-o-brien-YSXxHr2T0_8-unsplash.jpg);
+  min-height: 60%;
+}
+.parallax3 {
+  background: url(../images/cityriver.jpg);
+  min-height: 100%;
+}
+
+.parallax1,
+.parallax2,
+.parallax3 {
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.tictactoe {
+  position: absolute;
+  top: 35%;
+  color: rgb(243, 235, 235);
+  font-size: 5rem;
+  text-transform: uppercase;
+  width: 100%;
+  letter-spacing: 8px;
+}
+.playagain {
+  background-color: rgba(218, 228, 163, 0.35);
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.settingHover {
+  background-color: rgba(218, 228, 163, 0.5);
+  font-size: 101%;
+}
+.start {
+  background-color: white;
+  color: black;
+  width: 45px;
+  height: 45px;
+  border-radius: 2000px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 45px;
+  box-sizing: border-box;
+}
+.glow {
+  animation: tic 1s ease-in-out infinite alternate;
+}
+@keyframes tic {
+  from {
+    box-shadow: 0px 0px 0px rgb(243, 235, 235), 0px 0px 1rem rgb(243, 235, 235), 0px 0px 2rem #b3dfe7;
+  }
+  to {
+    box-shadow: 0px 0px 1rem #b3dfe7, 0px 0px 2rem #b3dfe7, 0px 0px 3rem #b3dfe7;
+  }
+}
+.shadow1 {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+.shadow2 {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2), 0 0 0 16px rgba(255, 255, 255, 0.2);
+}
+.shadow3 {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.5), 0 0 0 16px rgba(255, 255, 255, 0.5);
+}
+.thegame,
+.Goodbye {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  width: 100%;
+  text-shadow: 2px 2px 0px black;
+  letter-spacing: 4px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  color: white;
+  background: url(../images/18.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 30%;
+  padding: 5px;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.player1info,
+.player2info,
+.tie {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 150px;
+  padding: 5px;
+  font-size: 1.5rem;
+  border-radius: 3px;
+}
+.tie {
+  background-color: rgba(218, 228, 163, 0.35);
+  height: 50px;
+  line-height: 50px;
+  width: 80px;
+}
+.board {
+  min-width: 500px;
+  width: 500px;
+  height: 500px;
+
+  margin: 30px auto 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1px;
+}
+.items {
+  border: 1px solid rgb(43, 42, 42);
+  background-color: white;
+  border-radius: 2px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.2;
+  color: black;
+  font-size: 10rem;
+  line-height: 166px;
+}
+
+.green {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 101%;
+  background-color: white;
+
+  opacity: 0.65;
+}
+.greeninfo {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+.red {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 101%;
+  background-color: rgb(145, 202, 204);
+  opacity: 0.65;
+}
+.redinfo {
+  background-color: rgb(145, 202, 204, 0.35);
+}
+
+.container {
+  background: url(../images/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  top: 50%;
+  padding: 100px;
+  letter-spacing: 2px;
+}
+
+.container h2:hover {
+  color: rgba(255, 255, 0);
+}
+
+.human h3:hover {
+  color: rgba(255, 255, 0);
+}
+.comp {
+  letter-spacing: 1px;
+}
+.comp input {
+  margin: 10px;
+}
+.comp h3:hover {
+  color: rgba(255, 255, 0);
+}
+.comp span:hover {
+  color: #ff0;
+}
+.button input:hover {
+  opacity: 0.75;
+}
+
+.hideIt {
+  visibility: hidden;
+}
+.showIt {
+  visibility: visible;
+}
+.sorry {
+  visibility: hidden;
+}
+@media only screen and (max-width: 1250px) {
+  .info,
+  .player1info,
+  .player2info {
+    display: flex;
+    flex-direction: row;
+  }
+  .player1info,
+  .player2info {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    font-size: 1rem;
+    margin: 0 4px;
+  }
+  .tie {
+    min-width: 60px;
+    font-size: 1rem;
+    margin: 0 4px;
+  }
+}
+.hover {
+  width: 102%;
+  height: 102%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.button input {
+  background-color: white;
+}
+@media only screen and (max-width: 1100px) {
+  .body,
+  html {
+    font-size: 20px;
+  }
+  .info {
+    width: 100%;
+    grid-area: info;
+  }
+  .playagain {
+    grid-area: setting;
+    font-size: 0.75rem;
+    left: 0;
+  }
+  .player1info,
+  .player2info,
+  .tie {
+    margin: 0 2px;
+  }
+  .board {
+    grid-area: board;
+  }
+  #gamePlay {
+    display: grid;
+    grid-template-columns: (1fr) * 7;
+    grid-template-rows: (1fr) * 4;
+    grid-template-areas:
+      "info info info setting" "board board board board" "board board board board"
+      "board board board board";
+    margin: auto;
+  }
+}
+
+/* @media only screen and (max-width: 700px) {
+  #gameplay,
+  .board,
+  .info,
+  .playagain {
+    display: none;
+  }
+  #gameplay {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sorry {
+    visibility: visible;
+    font-size: 2rem;
+    min-height: 500px;
+    line-height: 500px;
+  }
+} */
+@media only screen and (max-width: 700px) {
+  .body,
+  html {
+    font-size: 10px;
+  }
+  #gamePlay {
+    margin: 10px 0;
+  }
+  #playbutton {
+    font-size: 1rem;
+  }
+  .board {
+    min-width: 200px;
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1px;
+  }
+  .items {
+    font-size: 3rem;
+    line-height: 95px;
+  }
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 30%;
+    padding: 5px;
+    text-align: left;
+    font-size: 2.3rem;
+    font-weight: 100;
+    width: 230px;
+  }
+  .playagain {
+    width: 30px;
+    font-size: 10px;
+  }
+  .player1info,
+  .player2info,
+  .tie {
+    width: 80px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .tie {
+    width: 20px;
+    padding: 0;
+  }
+}
