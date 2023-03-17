@@ -349,11 +349,11 @@ const medComp = function () {
 const announceIt = function () {
     if (selectPlayer == 2) {
         console.log('tie side')
-        alert('This is a tie')
+        alert('انتهت اللعبة بالتعادل')
     }
     else {
         console.log('winner side')
-        alert('Congraulation yo ' + players[selectPlayer])
+        alert('مبروووووك الفوز' + players[selectPlayer])
     }
     const x = prompt('تبي تلعب مره ثانية؟ اكتب ل للخروج أو أي شيء اخر للعب مره ثانية');
     resetIt(x);
