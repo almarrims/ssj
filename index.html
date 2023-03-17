@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <link rel="stylesheet" href="css/newstyle.css">
     <title>لعبة سعد و سعد و جابر</title>
 </head>
 
 <body>
     <div class="parallax0" id='para0'>
-        <div class="tictactoe">
-            <span class="tic">سعد</span>
-            <span class="tac">سعد</span>
-            <span class="toe">جابر</span>
+        <div class="tictactoe" lang='ar' dir='rtl'>
+            <span class="tic" lang='ar' dir='rtl'>سعد و</span>
+            <span class="tac" lang='ar' dir='rtl'>سعد و </span>
+            <span class="toe" lang='ar' dir='rtl'>جابر</span>
+            <span class="toe" lang='ar' dir='rtl'>عيال</span>
+            <span class="toe" lang='ar' dir='rtl'>ال سعد</span>
+            <span class="toe" lang='ar' dir='rtl'>ال بوبح</span>
         </div>
         <div class="start glow">Start</div>
     </div>
@@ -32,17 +36,17 @@
         </div>
         <div class="comp">
             <h3>كمبيوتر</h3>
-            <input type="radio" class="com selection two" name='player2' value="easy"><span>سهل</span></input>
+            <input type="radio" class="com selection two" name="player2" value="easy"><span>سهل</span></input>
             <input type="radio" class="com selection three" name="player2" value="medium"
                 checked><span>متوسط</span></input>
         </div>
         <div class="thenames">
-            <input type="text" class="thenames1" placeholder="Player One">
+            <input type="text" class="thenames1" placeholder="اللاعب 1">
             <input type="radio" name="token" class='token1x' value="X" checked>X
             <input type="radio" name="token" class='token1o' value="O">O
 
 
-            <input type="text" class="thenames2 hideIt" placeholder="Player Two">
+            <input type="text" class="thenames2 hideIt" placeholder="اللاعب 2">
         </div>
         <div class="button">
             <input type="button" value="Play" id='playbutton'></input>

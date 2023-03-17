@@ -51,10 +51,11 @@ html {
   position: absolute;
   top: 35%;
   color: rgb(243, 235, 235);
-  font-size: 5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   width: 100%;
   letter-spacing: 8px;
+  font-family: 'Droid Arabic Kufi', serif;
 }
 .playagain {
   background-color: rgba(218, 228, 163, 0.35);

@@ -73,7 +73,12 @@ const resetIt = function (x) {
 //this is the function that takes the game style and names info and assign info accordingly
 const moveToPlay = function () {
     resetIt();
-    if (document.querySelector('.two').checked) {
+    if (document.querySelector('.one').checked) {
+        selectStyle = 0;
+        console.log(document.querySelector('.one').checked, 'one')
+        window.location.href = '#gamePlay';
+
+    } else if (document.querySelector('.two').checked) {
         selectStyle = 1;
         window.location.href = '#gamePlay'
     }
@@ -88,12 +93,12 @@ const moveToPlay = function () {
         window.location.href = '#gamePlay'
 
     }
-    else if (document.querySelector('.one').checked) {
-        selectStyle = 0;
-        console.log(document.querySelector('.one').checked, 'one')
-        window.location.href = '#gamePlay';
+    // else if (document.querySelector('.one').checked) {
+    //     selectStyle = 0;
+    //     console.log(document.querySelector('.one').checked, 'one')
+    //     window.location.href = '#gamePlay';
 
-    }
+    // }
     if (document.querySelector('.token1o').checked) {
         playerOneToken = 'O';
         playerTwoToken = 'X';
